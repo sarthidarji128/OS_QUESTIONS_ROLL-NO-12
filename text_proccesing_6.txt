@@ -1,0 +1,26 @@
+
+
+1. Substitute Text: Replace the first occurrence of 'hello' with 'world' in a file.
+   zsh
+   sed 's/hello/world/' file.txt
+   
+
+2. Global Substitute: Replace all occurrences of 'unix' with 'linux' in a file.
+   zsh
+   sed 's/unix/linux/g' file.txt
+   
+
+3. Delete Lines: Remove all lines that contain the word 'delete'.
+   zsh
+   sed '/delete/d' file.txt
+   
+
+4. Print Specific Lines: Print only the lines that contain the word 'print'.
+   zsh
+   sed -n '/print/p' file.txt
+   
+
+5. In-Place Editing: Edit the file in-place to replace 'old' with 'new' (creates a backup with .bak extension).
+   zsh
+   sed -i.bak 's/old/new/g' file.txt
+   

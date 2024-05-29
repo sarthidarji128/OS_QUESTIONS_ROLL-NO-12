@@ -1,0 +1,23 @@
+1. **`cat`**: Concatenate and display the content of a file.
+
+   cat filename.txt
+
+
+2. **`head`**: Display the first few lines of a file (default is 10 lines).
+
+   head -n 5 filename.txt
+
+
+3. **`tail`**: Display the last few lines of a file (default is 10 lines).
+
+   tail -n 5 filename.txt
+  
+
+4. **`cp`**: Copy files from one location to another.
+
+   cp source.txt destination.txt
+
+
+5. **`rm`**: Remove files or directories.
+
+   rm filename.txt

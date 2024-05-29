@@ -1,0 +1,22 @@
+1. **`ls`**: List the contents of a directory.
+
+   ls -l
+
+2. **`mkdir`**: Create a new directory.
+
+   mkdir new_directory
+
+
+3. **`cd`**: Change the current working directory.
+
+   cd /path/to/directory
+
+
+4. **`rmdir`**: Remove an empty directory.
+
+   rmdir old_directory
+
+
+5. **`pwd`**: Print the current working directory.
+
+   pwd

@@ -1,0 +1,3 @@
+sed '/error/d' filename.txt
+
+sed -i '/error/d' filename.txt
